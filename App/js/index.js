@@ -32,11 +32,12 @@ xui.Class('App', 'xui.Module',{
                         "type" : "other",
                         "target" : "msg",
                         "args" : [
-                            "Test",
-                            "asdfasdf"
+                            "asdfadf",
+                            "asdfasdfasdf"
                         ],
-                        "method" : "pop",
-                        "event" : 1
+                        "method" : "alert",
+                        "event" : 1,
+                        "onOK" : 2
                     }
                 ])
             );
