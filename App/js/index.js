@@ -26,6 +26,19 @@ xui.Class('App', 'xui.Module',{
                 .setLeft("9.904761904761905em")
                 .setTop("8.380952380952381em")
                 .setSrc("{xui.ini.img_pic}")
+                .onClick([
+                    {
+                        "desc" : "Action 1",
+                        "type" : "other",
+                        "target" : "msg",
+                        "args" : [
+                            "Test",
+                            "asdfasdf"
+                        ],
+                        "method" : "pop",
+                        "event" : 1
+                    }
+                ])
             );
             
             return children;
